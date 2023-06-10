@@ -22,6 +22,7 @@ body {
   font-style: italic;
 }
 #thing {
+  font-style: italic;
   text-align: right;
   font-size: 0.5em;
   float: bottom;
