@@ -1,9 +1,9 @@
 body {
-  font: "Arial";
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #ADADAD;
 }
 #bottom {
-  font-family: "Arial";
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 2em;
   background-color: white;
   border-radius: 10px;
@@ -19,8 +19,10 @@ body {
   float: right;
   width: 20%;
   height: 30%;
+  font-style: italic;
 }
 #thing {
+  font-style: italic;
   text-align: right;
   font-size: 0.5em;
   float: bottom;
@@ -29,5 +31,5 @@ body {
   background-color: white;
   border-radius: 10px;
   font-size: 1em;
-  font-family: "Arial";
+  font-family: Arial, Helvetica, sans-serif;
 }
