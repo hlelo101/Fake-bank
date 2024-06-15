@@ -4,16 +4,23 @@
         <title>Banque de Chevriers - Outil de surveillance externe</title>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="script.js" defer></scipt>
+        <script src="script.js" defer></script>
     </head>
     <body>
         <div id="bottom" class="content">
-            <p>Banque des Chevriers</p><p id=thing>Control panel</p>
+            <div style="margin: 10px">
+                <p>Banque des Chevriers</p><p id=thing>Control panel</p>
+            </div>
         </div>
         <br>
         <div class="content" id="sold">
-            <p id="welcome">Bonjour, Monsieur</p>
-            <p>Vous avez actuellement <b>1024€</b> dans votre compte.</p>
+            <div style="margin: 10px">
+                <div class="align">
+                    <p id="welcome">Bonjour, M./Mme.</p>
+                    <p id="nom">[nom]</p>
+                </div>
+                <p>Vous avez actuellement <b>1024€</b> dans votre compte.</p>
+            </div>
         </div>
         <div class="content" id="history">
             <p>Il n'y a eu aucune transaction depuis la dernière connexion</p>
